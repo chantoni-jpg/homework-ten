@@ -1,0 +1,49 @@
+.tour-four {
+  header {
+    @include center(981px);
+    height: 413px;
+    background-image: linear-gradient(to right, $overlay-black, $overlay-black),
+      url(../images/tour-04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h1 {
+      position: absolute;
+      font-family: Proxima;
+      font-size: 80px;
+      color: $site-white;
+    }
+    h2 {
+      position: absolute;
+      left: 700px;
+      top: 450px;
+      font-size: 30px;
+      font-family: Proxima;
+      color: $site-white;
+    }
+  }
+  .tours {
+    @include center(978px, 42px auto 0 auto);
+    min-height: 200px;
+    //background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .tour-promo {
+    height: 347px;
+    width: 298px;
+    //background-color: plum;
+    // margin: 0 55px 55px 0;
+    margin-bottom: 55px;
+  }
+}
+@media all and (max-width: 1200px) {
+  .tour {
+    .tours {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+} ;

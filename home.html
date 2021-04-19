@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel-Fly</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>       
+
+    <div class="hero">
+        <nav>
+            <div class="logo"></div>
+            <div class="links">
+                <a id="home"  href="#">Home <span style="color:#79addc">|</span></a>
+                <a id="about"  href="#">About <span style="color:#79addc">|</span></a>
+                <a id="tours"  href="#">Tours <span style="color:#79addc">|</span></a>
+                <a id="special"  href="#">Special Offer<span style="color:#79addc">|</span></a>
+                <a id="blog"  href="#">Blog <span style="color:#79addc">|</span></a>
+                <a id="contact"  href="#">Contact </a>
+            </div>
+        </nav>
+        <div class="hero-content">
+        <h1>travel-fly</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid minus nemo sed est.</p>
+        <button id="read" onclick="document.location.href='http://127.0.0.1:5502/about.html'" class="button">READ MORE</button>
+    </div>
+</div>
+    <div id="app">
+    <div id="home">    
+    <section class="promo-tours">
+        <div class="promo-one">
+            <h1>ISRAEL</h1>
+            <h2>from $1000</h2>
+            <button onclick="document.location.href='http://127.0.0.1:5502/index.html'" class="promo-button">LEARN MORE</button>
+        </div>
+        <div class="promo-two">
+            <h1>USA</h1>
+            <h2>from $1500</h2>
+            <button onclick="document.location.href='http://127.0.0.1:5502/tour-two.html'" class="promo-button">LEARN MORE</button>
+        </div>
+        <div class="promo-three">
+            <h1>AUSTRALIA</h1>
+            <h2>from $1800</h2>
+            <button onclick="document.location.href='http://127.0.0.1:5502/tour-three.html'" class="promo-button">LEARN MORE</button>
+        </div>
+    </section>
+    <section class="booking-form">
+        <h1>Booking Form</h1>
+        <table>
+            <tr>
+            </tr>
+            <tr>
+                <td><input type="text" value="Name..."></td>
+                <td><input type="text" value="Email..."></td>
+            </tr>
+            <tr>
+                <td><input type="text" value="Country..."></td>
+                <td><input type="text" value="Hotel..."></td>
+            </tr>
+        </table>
+        <label for="check">Check-In:</label><br>
+        <input type="check" id="check" value="05/10/2020"><br><br>
+          <label for="check">Check-Out:</label><br>
+          <input type="check" id="check" value="05/20/2020"><br><br>
+          <div class="people">
+              <table>
+                  <tr></tr>
+                  <tr>
+                    <td>Adult<input type="amount" id="amount" value="2"></td>
+                    <td>Children<input type="amount" id="amount" value="0"></td>
+                    <td>Rooms<input type="amount" id="amount" value="1"></td>
+                  </tr>
+              </table>
+              <textarea id="message" name="message" placeholder="message..."></textarea>
+              <input type="submit" value="Submit">
+          </div>
+        </section>
+</div>
+</div>
+<script src="lib/jquery-3.6.0.min.js"></script>
+<script src="model/model.js"></script>
+<script src="app/app.js"></script>
+    <footer>
+        <div class="logo-footer"></div>
+        <p>Copyright 2019 travel-fly.  All rights reserved</p>
+        <div class="social">
+            <img src="./images/social-media.PNG" width="200px" height="50px" alt="">
+        </div>
+    </div>
+    </footer>
+</body>
+</html>

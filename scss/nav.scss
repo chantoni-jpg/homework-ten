@@ -1,0 +1,37 @@
+nav {
+  max-width: 980px;
+  height: 60px;
+  margin: 20px auto;
+  //   background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 2px;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    // background-color: yellow;
+    background-image: url(../images/logo-black.png);
+  }
+
+  .links {
+    width: 400px;
+    height: 42px;
+    // background-color: palevioletred;
+    align-self: center;
+    margin-left: 25px;
+
+    a {
+      text-decoration: none;
+      color: black;
+      margin: auto;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+  }
+}
+@media only screen and (max-width: 980px) {
+  .links {
+    width: 400px;
+  }
+}

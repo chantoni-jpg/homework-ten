@@ -1,0 +1,42 @@
+.blog {
+  max-width: 980px;
+  //background-color: blueviolet;
+  margin: 0 auto;
+  h1 {
+    font-family: "Proxima";
+    font-size: 30px;
+    text-decoration: underline;
+  }
+
+  .blog-post {
+    max-width: 980px;
+    display: block;
+    margin-bottom: 38px;
+    padding-left: 0px;
+    margin-left: 50px;
+    .blog-image {
+      max-width: 900px;
+      height: 259px;
+      background-color: palevioletred;
+    }
+
+    .blog-image {
+      background-image: url(../images/blog.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    h1 {
+      font-size: 15px;
+      font-family: "Gill";
+    }
+    .blog-quote {
+      p {
+        font-size: 13px;
+        font-family: "Gill";
+        width: 50%;
+        color: $site-blue;
+      }
+    }
+  }
+}
